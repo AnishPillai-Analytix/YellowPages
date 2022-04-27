@@ -1,0 +1,548 @@
+[1591972684.844][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 58319
+[1591972684.844][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1591972685.344][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--log_level=3" ],
+            "excludeSwitches": [ "enable-logging" ],
+            "extensions": [  ],
+            "prefs": {
+               "behavior": "allow",
+               "download.prompt_for_download": false,
+               "plugins.always_open_pdf_externally": true,
+               "safebrowsing.disable_download_protection": true,
+               "safebrowsing.enabled": false
+            }
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--log_level=3" ],
+         "excludeSwitches": [ "enable-logging" ],
+         "extensions": [  ],
+         "prefs": {
+            "behavior": "allow",
+            "download.prompt_for_download": false,
+            "plugins.always_open_pdf_externally": true,
+            "safebrowsing.disable_download_protection": true,
+            "safebrowsing.enabled": false
+         }
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1591972685.346][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "behavior": "allow",
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "prompt_for_download": false
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "disable_download_protection": true,
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1591972685.347][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1591972685.359][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --load-extension="C:\Users\Anish\AppData\Local\Temp\scoped_dir12372_1027702142\internal" --log-level=0 --log_level=3 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Anish\AppData\Local\Temp\scoped_dir12372_6530115" data:,
+[1591972685.777][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1591972687.784][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "83.0.4103.97",
+      "chrome": {
+         "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
+         "userDataDir": "C:\\Users\\Anish\\AppData\\Local\\Temp\\scoped_dir12372_6530115"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58325"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0f8f21227d85b2ef51ddc26b37749e28"
+}
+[1591972687.786][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://my.indiamart.com/userprofile/contactprofile/"
+}
+[1591972687.786][INFO]: Waiting for pending navigations...
+[1591972687.787][INFO]: Done waiting for pending navigations. Status: ok
+[1591972688.143][INFO]: Waiting for pending navigations...
+[1591972688.269][INFO]: Done waiting for pending navigations. Status: ok
+[1591972688.269][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972693.272][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"email\"]"
+}
+[1591972693.274][INFO]: Waiting for pending navigations...
+[1591972693.275][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.282][INFO]: Waiting for pending navigations...
+[1591972693.282][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.282][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4b42d0d3-0b14-4c25-80f6-83b9da9fe061"
+}
+[1591972693.284][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND TypeElement {
+   "id": "4b42d0d3-0b14-4c25-80f6-83b9da9fe061",
+   "text": "7878610205",
+   "value": [ "7", "8", "7", "8", "6", "1", "0", "2", "0", "5" ]
+}
+[1591972693.284][INFO]: Waiting for pending navigations...
+[1591972693.284][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.316][INFO]: Waiting for pending navigations...
+[1591972693.316][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.316][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE TypeElement
+[1591972693.317][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"submtbtn\"]"
+}
+[1591972693.317][INFO]: Waiting for pending navigations...
+[1591972693.318][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.322][INFO]: Waiting for pending navigations...
+[1591972693.323][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.323][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "15f610a5-b278-4feb-80dd-e3ce0f485db8"
+}
+[1591972693.324][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ClickElement {
+   "id": "15f610a5-b278-4feb-80dd-e3ce0f485db8"
+}
+[1591972693.324][INFO]: Waiting for pending navigations...
+[1591972693.324][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.354][INFO]: Waiting for pending navigations...
+[1591972693.355][INFO]: Done waiting for pending navigations. Status: ok
+[1591972693.355][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ClickElement
+[1591972695.356][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElements {
+   "using": "css selector",
+   "value": "[id=\"passwordbtn1\"]"
+}
+[1591972695.356][INFO]: Waiting for pending navigations...
+[1591972695.356][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.361][INFO]: Waiting for pending navigations...
+[1591972695.362][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.362][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "a5133f9b-8c43-4bb2-b0ae-ca44962a6b3d"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8ea44e30-6fcd-46eb-9be3-f83f12ca40a8"
+} ]
+[1591972695.363][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "a5133f9b-8c43-4bb2-b0ae-ca44962a6b3d",
+      "element-6066-11e4-a52e-4f735466cecf": "a5133f9b-8c43-4bb2-b0ae-ca44962a6b3d"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1591972695.363][INFO]: Waiting for pending navigations...
+[1591972695.363][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.366][INFO]: Waiting for pending navigations...
+[1591972695.366][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.366][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript "Send OTP"
+[1591972695.367][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "8ea44e30-6fcd-46eb-9be3-f83f12ca40a8",
+      "element-6066-11e4-a52e-4f735466cecf": "8ea44e30-6fcd-46eb-9be3-f83f12ca40a8"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1591972695.367][INFO]: Waiting for pending navigations...
+[1591972695.368][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.370][INFO]: Waiting for pending navigations...
+[1591972695.370][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.370][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript "Login with Password"
+[1591972695.371][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ClickElement {
+   "id": "8ea44e30-6fcd-46eb-9be3-f83f12ca40a8"
+}
+[1591972695.371][INFO]: Waiting for pending navigations...
+[1591972695.372][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.418][INFO]: Waiting for pending navigations...
+[1591972695.529][INFO]: Done waiting for pending navigations. Status: ok
+[1591972695.529][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ClickElement
+[1591972696.531][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"usr_pass\"]"
+}
+[1591972696.531][INFO]: Waiting for pending navigations...
+[1591972696.531][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.536][INFO]: Waiting for pending navigations...
+[1591972696.537][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.537][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972696.538][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND TypeElement {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb",
+   "text": "Neptune@321",
+   "value": [ "N", "e", "p", "t", "u", "n", "e", "@", "3", "2", "1" ]
+}
+[1591972696.538][INFO]: Waiting for pending navigations...
+[1591972696.538][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.570][INFO]: Waiting for pending navigations...
+[1591972696.571][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.571][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE TypeElement
+[1591972696.572][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElements {
+   "using": "css selector",
+   "value": "[id=\"submtbtn\"]"
+}
+[1591972696.572][INFO]: Waiting for pending navigations...
+[1591972696.572][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.577][INFO]: Waiting for pending navigations...
+[1591972696.578][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.578][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "4eaecdd1-01ee-4eb3-8882-875152a74a03"
+} ]
+[1591972696.579][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "4eaecdd1-01ee-4eb3-8882-875152a74a03",
+      "element-6066-11e4-a52e-4f735466cecf": "4eaecdd1-01ee-4eb3-8882-875152a74a03"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1591972696.579][INFO]: Waiting for pending navigations...
+[1591972696.580][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.581][INFO]: Waiting for pending navigations...
+[1591972696.582][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.582][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript "Login with Password"
+[1591972696.583][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ClickElement {
+   "id": "4eaecdd1-01ee-4eb3-8882-875152a74a03"
+}
+[1591972696.583][INFO]: Waiting for pending navigations...
+[1591972696.583][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.611][INFO]: Waiting for pending navigations...
+[1591972696.612][INFO]: Done waiting for pending navigations. Status: ok
+[1591972696.612][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ClickElement
+[1591972701.613][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[id=\"primary_email\"]"
+}
+[1591972701.615][INFO]: Waiting for pending navigations...
+[1591972701.617][INFO]: Done waiting for pending navigations. Status: ok
+[1591972701.623][INFO]: Waiting for pending navigations...
+[1591972701.623][INFO]: Done waiting for pending navigations. Status: ok
+[1591972701.623][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "2c3f4355-ef63-41fe-b572-511ffc8903f5"
+}
+[1591972701.624][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://dir.indiamart.com/search.mp?ss=bitumen&cq=Jammu&cq_src=city-search&city_only=true"
+}
+[1591972701.624][INFO]: Waiting for pending navigations...
+[1591972701.625][INFO]: Done waiting for pending navigations. Status: ok
+[1591972702.223][INFO]: Waiting for pending navigations...
+[1591972702.509][INFO]: Done waiting for pending navigations. Status: ok
+[1591972702.509][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972707.510][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nres"
+}
+[1591972707.518][INFO]: Waiting for pending navigations...
+[1591972707.519][INFO]: Done waiting for pending navigations. Status: ok
+[1591972707.524][INFO]: Waiting for pending navigations...
+[1591972707.524][INFO]: Done waiting for pending navigations. Status: ok
+[1591972707.524][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nres"}
+  (Session info: chrome=83.0.4103.97)
+[1591972707.525][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(0, document.body.scrollHeight);"
+}
+[1591972707.525][INFO]: Waiting for pending navigations...
+[1591972707.526][INFO]: Done waiting for pending navigations. Status: ok
+[1591972707.527][INFO]: Waiting for pending navigations...
+[1591972707.527][INFO]: Done waiting for pending navigations. Status: ok
+[1591972707.527][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript null
+[1591972710.528][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[contains(text(), \"Show More Results\")]"
+}
+[1591972710.530][INFO]: Waiting for pending navigations...
+[1591972710.530][INFO]: Done waiting for pending navigations. Status: ok
+[1591972710.537][INFO]: Waiting for pending navigations...
+[1591972710.537][INFO]: Done waiting for pending navigations. Status: ok
+[1591972710.537][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), "Show More Results")]"}
+  (Session info: chrome=83.0.4103.97)
+[1591972715.378][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972715.378][INFO]: Waiting for pending navigations...
+[1591972715.379][INFO]: Done waiting for pending navigations. Status: ok
+[1591972715.388][INFO]: Waiting for pending navigations...
+[1591972715.388][INFO]: Done waiting for pending navigations. Status: ok
+[1591972715.388][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Chead>\u003Cscript type=\"text/javascript\" id=\"www-widgetapi-script\" src=\"https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl_t-EQa/www-widgetapi.js\" async=\"\">\u003C/script>\u003Cscript src=\"https://ww..."
+[1591972715.574][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://www.indiamart.com/proddetail/viscosity-grade-bitumen-22193574273.html"
+}
+[1591972715.574][INFO]: Waiting for pending navigations...
+[1591972715.574][INFO]: Done waiting for pending navigations. Status: ok
+[1591972715.668][INFO]: Waiting for pending navigations...
+[1591972715.842][INFO]: Done waiting for pending navigations. Status: ok
+[1591972715.842][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972718.844][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972718.850][INFO]: Waiting for pending navigations...
+[1591972718.851][INFO]: Done waiting for pending navigations. Status: ok
+[1591972718.862][INFO]: Waiting for pending navigations...
+[1591972718.862][INFO]: Done waiting for pending navigations. Status: ok
+[1591972718.863][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/xzoom1.css\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/pdp_post50.css\">\u003Chead>\u003Cstyle type=\"text/css\" class=\"drift..."
+[1591972731.027][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://www.indiamart.com/proddetail/rubber-modified-bitumen-7485756362.html"
+}
+[1591972731.027][INFO]: Waiting for pending navigations...
+[1591972731.028][INFO]: Done waiting for pending navigations. Status: ok
+[1591972731.080][INFO]: Waiting for pending navigations...
+[1591972731.188][INFO]: Done waiting for pending navigations. Status: ok
+[1591972731.188][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972734.189][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972734.193][INFO]: Waiting for pending navigations...
+[1591972734.194][INFO]: Done waiting for pending navigations. Status: ok
+[1591972734.207][INFO]: Waiting for pending navigations...
+[1591972734.208][INFO]: Done waiting for pending navigations. Status: ok
+[1591972734.208][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/xzoom1.css\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/pdp_post50.css\">\u003Chead>\u003Cstyle type=\"text/css\" class=\"drift..."
+[1591972735.028][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://www.indiamart.com/proddetail/bitumen-vg-10-80-100-20428882412.html"
+}
+[1591972735.028][INFO]: Waiting for pending navigations...
+[1591972735.028][INFO]: Done waiting for pending navigations. Status: ok
+[1591972735.078][INFO]: Waiting for pending navigations...
+[1591972735.122][INFO]: Done waiting for pending navigations. Status: ok
+[1591972735.122][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972738.124][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972738.128][INFO]: Waiting for pending navigations...
+[1591972738.129][INFO]: Done waiting for pending navigations. Status: ok
+[1591972738.141][INFO]: Waiting for pending navigations...
+[1591972738.141][INFO]: Done waiting for pending navigations. Status: ok
+[1591972738.141][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/xzoom1.css\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/pdp_post50.css\">\u003Chead>\u003Cstyle type=\"text/css\" class=\"drift..."
+[1591972738.806][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://www.indiamart.com/proddetail/vg-40-bitumen-21565800533.html"
+}
+[1591972738.806][INFO]: Waiting for pending navigations...
+[1591972738.807][INFO]: Done waiting for pending navigations. Status: ok
+[1591972738.852][INFO]: Waiting for pending navigations...
+[1591972738.983][INFO]: Done waiting for pending navigations. Status: ok
+[1591972738.983][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972741.985][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972741.989][INFO]: Waiting for pending navigations...
+[1591972741.990][INFO]: Done waiting for pending navigations. Status: ok
+[1591972742.003][INFO]: Waiting for pending navigations...
+[1591972742.003][INFO]: Done waiting for pending navigations. Status: ok
+[1591972742.003][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/xzoom1.css\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/pdp_post50.css\">\u003Chead>\u003Cstyle type=\"text/css\" class=\"drift..."
+[1591972742.688][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://www.indiamart.com/proddetail/bitumen-60-70-4978365730.html"
+}
+[1591972742.688][INFO]: Waiting for pending navigations...
+[1591972742.689][INFO]: Done waiting for pending navigations. Status: ok
+[1591972742.736][INFO]: Waiting for pending navigations...
+[1591972742.844][INFO]: Done waiting for pending navigations. Status: ok
+[1591972742.844][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972745.846][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972745.849][INFO]: Waiting for pending navigations...
+[1591972745.850][INFO]: Done waiting for pending navigations. Status: ok
+[1591972745.862][INFO]: Waiting for pending navigations...
+[1591972745.862][INFO]: Done waiting for pending navigations. Status: ok
+[1591972745.863][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/xzoom1.css\">\u003Clink rel=\"stylesheet\" href=\"https://fcp.imimg.com/gifs/pdp_post50.css\">\u003Chead>\u003Cstyle type=\"text/css\" class=\"drift..."
+[1591972751.759][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND Navigate {
+   "url": "https://dir.indiamart.com/search.mp?ss=bitumen&cq=Mansa&cq_src=city-search&city_only=true"
+}
+[1591972751.759][INFO]: Waiting for pending navigations...
+[1591972751.760][INFO]: Done waiting for pending navigations. Status: ok
+[1591972752.173][INFO]: Waiting for pending navigations...
+[1591972752.423][INFO]: Done waiting for pending navigations. Status: ok
+[1591972752.423][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE Navigate
+[1591972757.424][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".nres"
+}
+[1591972757.430][INFO]: Waiting for pending navigations...
+[1591972757.431][INFO]: Done waiting for pending navigations. Status: ok
+[1591972757.436][INFO]: Waiting for pending navigations...
+[1591972757.436][INFO]: Done waiting for pending navigations. Status: ok
+[1591972757.436][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".nres"}
+  (Session info: chrome=83.0.4103.97)
+[1591972757.438][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(0, document.body.scrollHeight);"
+}
+[1591972757.438][INFO]: Waiting for pending navigations...
+[1591972757.438][INFO]: Done waiting for pending navigations. Status: ok
+[1591972757.439][INFO]: Waiting for pending navigations...
+[1591972757.439][INFO]: Done waiting for pending navigations. Status: ok
+[1591972757.439][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript null
+[1591972760.441][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[contains(text(), \"Show More Results\")]"
+}
+[1591972760.441][INFO]: Waiting for pending navigations...
+[1591972760.441][INFO]: Done waiting for pending navigations. Status: ok
+[1591972760.448][INFO]: Waiting for pending navigations...
+[1591972760.448][INFO]: Done waiting for pending navigations. Status: ok
+[1591972760.448][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), "Show More Results")]"}
+  (Session info: chrome=83.0.4103.97)
+[1591972760.449][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetSource {
+
+}
+[1591972760.449][INFO]: Waiting for pending navigations...
+[1591972760.450][INFO]: Done waiting for pending navigations. Status: ok
+[1591972760.456][INFO]: Waiting for pending navigations...
+[1591972760.457][INFO]: Done waiting for pending navigations. Status: ok
+[1591972760.457][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetSource "\u003Chtml lang=\"en\">\u003Chead>\u003Cscript type=\"text/javascript\" id=\"www-widgetapi-script\" src=\"https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl_t-EQa/www-widgetapi.js\" async=\"\">\u003C/script>\u003Cscript src=\"https://ww..."
+[1591972799.242][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetElementRect {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.242][INFO]: Waiting for pending navigations...
+[1591972799.243][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.244][INFO]: Waiting for pending navigations...
+[1591972799.245][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.245][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetElementRect ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.246][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb",
+      "element-6066-11e4-a52e-4f735466cecf": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+   } ],
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb",
+   "script": "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()"
+}
+[1591972799.247][INFO]: Waiting for pending navigations...
+[1591972799.247][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.248][INFO]: Waiting for pending navigations...
+[1591972799.249][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.249][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ExecuteScript ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.249][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetElementRect {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.249][INFO]: Waiting for pending navigations...
+[1591972799.250][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.251][INFO]: Waiting for pending navigations...
+[1591972799.251][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.251][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetElementRect ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.252][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ElementScreenshot {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.252][INFO]: Waiting for pending navigations...
+[1591972799.252][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.256][INFO]: Waiting for pending navigations...
+[1591972799.257][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.257][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ElementScreenshot ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.258][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND ElementScreenshot {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.258][INFO]: Waiting for pending navigations...
+[1591972799.258][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.261][INFO]: Waiting for pending navigations...
+[1591972799.261][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.261][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE ElementScreenshot ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.262][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetElementRect {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.262][INFO]: Waiting for pending navigations...
+[1591972799.263][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.264][INFO]: Waiting for pending navigations...
+[1591972799.264][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.264][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetElementRect ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.265][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetElementTagName {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.265][INFO]: Waiting for pending navigations...
+[1591972799.265][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.266][INFO]: Waiting for pending navigations...
+[1591972799.266][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.266][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetElementTagName ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
+[1591972799.267][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] COMMAND GetElementText {
+   "id": "b0d9a43a-aad5-43ef-b3c1-56f122c4b0cb"
+}
+[1591972799.267][INFO]: Waiting for pending navigations...
+[1591972799.268][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.271][INFO]: Waiting for pending navigations...
+[1591972799.271][INFO]: Done waiting for pending navigations. Status: ok
+[1591972799.271][INFO]: [0f8f21227d85b2ef51ddc26b37749e28] RESPONSE GetElementText ERROR stale element reference: element is not attached to the page document
+  (Session info: chrome=83.0.4103.97)
